@@ -1625,6 +1625,24 @@ input, select, textarea {
 
 		}
 
+		.popup {
+	  		position: relative;
+	  		top: 10%;
+	  		left: 10%;
+	  		width: 60%;
+	  		max-width: 400px;
+	  		background: white;
+	  		color: black;
+	  		border: 2px solid #ccc;
+	  		padding: 4.5rem 2.5rem 1.5rem 2.5rem;
+	  		border-radius: 4px;
+	  		z-index: 200; /* Higher z-index to appear above the main article */
+	  		display: none; /* Hidden by default */
+		}
+
+		.popup.active {
+  			display: block;
+		}
 /* Footer */
 
 	#footer {
